@@ -3,7 +3,7 @@ import { FaReact, FaNodeJs, FaJava, FaHtml5, FaCss3, FaPhp,FaGitAlt } from 'reac
 import { SiJavascript,SiPython,SiCplusplus, SiC, SiMysql } from 'react-icons/si';
 import { motion } from 'framer-motion';
 
-const CV = process.env.PUBLIC_URL + '/cv.png'; 
+const CV= 'https://Sandun441.github.io/Portfolio/cv.png';
 
 const AboutPage = () => {
   const skills = [
