@@ -6,7 +6,7 @@ import AboutPage from './components/AboutPage';
 import ProjectsPage from './components/Projects';
 import ContactPage from './components/Contact'; 
 
-const profileBg = process.env.PUBLIC_URL + '/profile-bg.png'; 
+const profileBg = 'https://Sandun441.github.io/Portfolio/profile-bg.png';
 
 function App() {
   return (
