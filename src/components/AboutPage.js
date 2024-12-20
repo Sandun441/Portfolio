@@ -2,6 +2,7 @@ import React from 'react';
 import { FaReact, FaNodeJs, FaJava, FaHtml5, FaCss3, FaPhp,FaGitAlt } from 'react-icons/fa';
 import { SiJavascript,SiPython,SiCplusplus, SiC, SiMysql } from 'react-icons/si';
 import { motion } from 'framer-motion';
+import { FaPhone, FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa'; // Import social media icons
 
 const CV= 'https://Sandun441.github.io/Portfolio/cv.png';
 
@@ -142,16 +143,14 @@ const AboutPage = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-6">
           {[
             {
-              title: "Senior Software Engineer",
-              company: "Tech Company",
-              period: "2020 - Present",
-              description: "Led development of multiple full-stack applications..."
+              title: "Social Media Application & Website",
+              period: "2024 - Present",
+              description: "We created our own social media application and website we a new idea"
             },
             {
-              title: "Web Developer",
-              company: "Digital Agency",
-              period: "2018 - 2020",
-              description: "Developed responsive web applications..."
+              title: "Travel Companions Finder",
+              period: "2024 - Present",
+              description: "Developed mobile application for finding travel companions."
             }
           ].map((exp, index) => (
             <motion.div
@@ -171,19 +170,29 @@ const AboutPage = () => {
 
       {/* Contact CTA Section */}
       <motion.div
-        initial={{ opacity: 0, scale: 0.8 }} // Start small and invisible
-        animate={{ opacity: 1, scale: 1 }} // Scale up to normal size
-        transition={{ duration: 0.6, delay: 1.6 }} // Smooth transition
-        className="text-center mt-20"
+        initial={{ opacity: 0, y: 20 }} // Start slightly below
+        animate={{ opacity: 1, y: 0 }} // Fade in and move to original position
+        transition={{ duration: 0.8, delay: 0.4 }}
+        className="space-y-6 text-center mt-16"
       >
-        <h2 className="text-2xl font-bold mb-4">Let's Work Together</h2>
-        <motion.button
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.95 }}
-          className="bg-blue-500 text-white px-8 py-3 rounded-full hover:bg-blue-600 transition-colors"
-        >
-          Contact Me
-        </motion.button>
+        <h2 className="text-3xl font-bold">Contact Me</h2>
+        <p className="mt-4">Get in touch with me at: <strong>+1234567890</strong></p> {/* Your mobile number */}
+
+        {/* Social Media Links */}
+        <div className="flex justify-center space-x-4 mt-4">
+          <a href="https://www.linkedin.com/in/sandun-bandara-1477212a7/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-400">
+            <FaLinkedin size={30} />
+          </a>
+          <a href="https://github.com/Sandun441" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-gray-400">
+            <FaGithub size={30} />
+          </a>
+          <a href="https://twitter.com/yourprofile" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300">
+            <FaTwitter size={30} />
+          </a>
+          <a href="tel:+1234567890" className="text-green-500 hover:text-green-400">
+            <FaPhone size={30} />
+          </a>
+        </div>
       </motion.div>
     </div>
   );
