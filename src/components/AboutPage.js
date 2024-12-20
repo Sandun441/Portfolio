@@ -2,7 +2,7 @@ import React from 'react';
 import { FaReact, FaNodeJs, FaJava, FaHtml5, FaCss3, FaPhp,FaGitAlt } from 'react-icons/fa';
 import { SiJavascript,SiPython,SiCplusplus, SiC, SiMysql } from 'react-icons/si';
 import { motion } from 'framer-motion';
-import { FaPhone, FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa'; // Import social media icons
+import { FaWhatsapp, FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa'; // Import social media icons
 
 const CV= 'https://Sandun441.github.io/Portfolio/cv.png';
 
@@ -176,7 +176,7 @@ const AboutPage = () => {
         className="space-y-6 text-center mt-16"
       >
         <h2 className="text-3xl font-bold">Contact Me</h2>
-        <p className="mt-4">Get in touch with me at: <strong>+1234567890</strong></p> {/* Your mobile number */}
+        <p className="mt-4">Get in touch with me at: <strong>+94764378286</strong></p> {/* Your mobile number */}
 
         {/* Social Media Links */}
         <div className="flex justify-center space-x-4 mt-4">
@@ -190,7 +190,7 @@ const AboutPage = () => {
             <FaTwitter size={30} />
           </a>
           <a href="tel:+1234567890" className="text-green-500 hover:text-green-400">
-            <FaPhone size={30} />
+            <FaWhatsapp size={30} />
           </a>
         </div>
       </motion.div>
