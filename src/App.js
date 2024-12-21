@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import NavigationButton from './components/NavigationButton';
 import AboutPage from './components/AboutPage';
 import ProjectsPage from './components/Projects';
-import ContactPage from './components/Contact'; 
+import CertificatesPage from './components/CertificatesPage'; 
 
 const profileBg = 'https://Sandun441.github.io/Portfolio/profile-bg.png';
 
@@ -17,7 +17,7 @@ function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/projects" element={<ProjectsPage />} />
-            <Route path="/contact" element={<ContactPage />} />
+            <Route path="/certificates" element={<CertificatesPage />} />
           </Routes>
         </div>
         <NavigationButton />

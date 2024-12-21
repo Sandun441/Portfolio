@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { FaHome, FaUser , FaCode, FaEnvelope } from 'react-icons/fa';
+import { FaHome, FaUser , FaCode, FaCertificate } from 'react-icons/fa';
 
 const handImage = process.env.PUBLIC_URL + '/hand.png'; 
 
@@ -13,7 +13,7 @@ function NavigationButton() {
     { path: '/', label: 'Home', icon: <FaHome size={30} />, position: { left: '8px', bottom: '410px' } },
     { path: '/about', label: 'About', icon: <FaUser  size={30} />, position: { left: '8px', bottom: '310px' } },
     { path: '/projects', label: 'Projects', icon: <FaCode size={30} />, position: { left: '8px', bottom: '210px' } },
-    { path: '/contact', label: 'Contact', icon: <FaEnvelope size={30} />, position: { left: '8px', bottom: '110px' } },
+    { path: '/certificates', label: 'Certificates', icon: <FaCertificate size={30} />, position: { left: '8px', bottom: '110px' } },
   ];
 
   return (
