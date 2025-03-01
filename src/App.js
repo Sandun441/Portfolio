@@ -26,7 +26,7 @@ function App() {
   );
 }
 
-function HomePage() {
+function App() {
   const createBubbles = (count) => {
     return [...Array(count)].map((_, index) => {
       const size = Math.random() * 20 + 10; 
