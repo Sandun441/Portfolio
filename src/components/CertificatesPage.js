@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 const certificates = [
   {
     title: "Certificate in Cyber Security",
-    description: "Completed a comprehensive course on web development.",
+    description: "I participated a cyber security bootcamp and I got this certificate",
     link: "https://example.com/certificate-web-development",
     image: "https://example.com/certificate-image1.png" // Replace with your actual image link
   },
