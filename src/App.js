@@ -25,7 +25,6 @@ function App() {
     </Router>
   );
 }
-
 function HomePage() {
   const createBubbles = (count) => {
     return [...Array(count)].map((_, index) => {
