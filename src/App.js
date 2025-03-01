@@ -14,7 +14,7 @@ function App() {
       <div className="relative h-screen bg-black overflow-auto">
         <div className="relative z-10 w-full h-full">
           <Routes>
-            <Route path="/Portfolio" element={<App />} />
+            <Route path="/Portfolio" element={<HomePage />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/projects" element={<ProjectsPage />} />
             <Route path="/certificates" element={<CertificatesPage />} />
@@ -26,7 +26,7 @@ function App() {
   );
 }
 
-function App() {
+function HomePage() {
   const createBubbles = (count) => {
     return [...Array(count)].map((_, index) => {
       const size = Math.random() * 20 + 10; 
