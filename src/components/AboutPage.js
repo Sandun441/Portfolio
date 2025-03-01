@@ -2,7 +2,7 @@ import React from 'react';
 import { FaReact, FaNodeJs, FaJava, FaHtml5, FaCss3, FaPhp, FaGitAlt, FaWhatsapp, FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa';
 import { SiJavascript, SiPython, SiCplusplus, SiC, SiMysql } from 'react-icons/si';
 import { motion } from 'framer-motion';
-import { Link } from 'react-router-dom'; // Import Link for navigation
+import { Link } from 'react-router-dom'; 
 
 const CV = 'https://Sandun441.github.io/Portfolio/cv.png';
 
