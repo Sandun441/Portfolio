@@ -1,39 +1,61 @@
-body {
-  font-family: 'Segoe UI', sans-serif;
-  background: #f7f9fc;
-  margin: 0;
-  padding: 0;
+.App {
+  text-align: center;
 }
 
-.navbar {
-  background: #111;
-  color: white;
-  padding: 1rem 2rem;
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
   display: flex;
-  justify-content: space-between;
-}
-
-.navbar ul {
-  display: flex;
-  gap: 1rem;
-  list-style: none;
-}
-
-.navbar a {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
   color: white;
-  text-decoration: none;
 }
 
-.home-container,
-.projects,
-.contact {
-  padding: 2rem;
+.App-link {
+  color: #61dafb;
 }
 
-.project-card {
-  background: white;
-  padding: 1rem;
-  margin-top: 1rem;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* App.css */
+@keyframes borderAnimation {
+  0% {
+    border-color: transparent;
+    transform: scale(1);
+  }
+  50% {
+    border-color: rgba(255, 255, 0, 0.7); /* Change to your desired color */
+    transform: scale(1.05);
+  }
+  100% {
+    border-color: transparent;
+    transform: scale(1);
+  }
+}
+
+.profile-picture {
+  border: 5px solid transparent; /* Initial border */
+  border-radius: 50%; /* Make it circular */
+  width: 150px; /* Set your desired width */
+  height: 150px; /* Set your desired height */
+  animation: borderAnimation 2s infinite; /* Animation settings */
 }
