@@ -3,31 +3,12 @@ import { motion } from 'framer-motion';
 
 const Projects = () => {
   const projects = [
-    {
-      title: "Travel Agency Website",
-      description: "A responsive website for a travel agency that allows users to book trips and view travel packages.",
-      link: "https://example.com/travel-agency",
-    },
-    {
-      title: "Online Gift Store",
-      description: "An e-commerce platform for buying and selling unique gifts with a user-friendly interface.",
-      link: "https://example.com/online-gift-store",
-    },
+  
     {
       title: "Social Media Application",
-      description: "A social media application that connects users and allows them to share updates and photos.",
-      link: "https://example.com/social-media-app",
-    },
-    {
-      title: "Recipe Finder App",
-      description: "A mobile application that helps users find recipes based on ingredients they have at home.",
-      link: "https://example.com/recipe-finder",
-    },
-    {
-      title: "Portfolio Website",
-      description: "A personal portfolio website to showcase projects and skills.",
-      link: "https://example.com/portfolio-website",
-    },
+      description: " My first full-stack web application, built using the MERN stack.",
+      Livelink: "https://open-social-m.vercel.app/",
+    }
   ];
 
   return (
