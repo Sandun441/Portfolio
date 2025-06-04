@@ -7,7 +7,7 @@ const Projects = () => {
     {
       title: "Social Media Application",
       description: " My first full-stack web application, built using the MERN stack.",
-      Livelink: "https://open-social-m.vercel.app/",
+      link: "https://open-social-m.vercel.app/",
     }
   ];
 
