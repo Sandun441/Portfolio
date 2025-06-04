@@ -132,19 +132,14 @@ const AboutPage = () => {
         transition={{ duration: 0.8, delay: 0.6 }}
         className="mt-16"
       >
-        <h2 className="text-3xl font-bold text-blue-500">Experience</h2>
+        <h2 className="text-3xl font-bold text-blue-500">Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-6">
           {[
             {
-              title: "Social Media Application & Website",
+              title: "Social Media Website",
               period: "2024 - Present",
-              description: "We created our own social media application and website with a new idea."
+              description: " My first full-stack web application, built using the MERN stack."
             },
-            {
-              title: "Travel Companions Finder",
-              period: "2024 - Present",
-              description: "Developed a mobile application for finding travel companions."
-            }
           ].map((exp, index) => (
             <motion.div
               key={index}
