@@ -118,42 +118,39 @@ const AboutPage = () => {
             {renderSkills("Tools", tools)}
           </div>
           
-          <p className="text-lg text-gray-300">
+          <p className="text-2xl font-bold text-gray-300">
             Explore my CV to learn more about my education, skills, and project experience as a full-stack software engineer.
           </p>
           {/* CV Section */}
-          <div className="grid grid-cols-2">
+         
+            <div className="mt-12">
+          <h2 className="text-3xl font-bold text-blue-500 mb-6 text-center">My CV</h2>
+          <div className="flex flex-col md:flex-row items-center justify-center gap-8">
           <motion.div
-            initial={{ opacity: 0, x: -100 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            className="relative w-full md:w-[400px] lg:w-[450px] rounded-xl overflow-hidden shadow-lg hover:shadow-blue-500/50 transition-shadow duration-300"
           >
-            <div className="w-full h-[500px] relative">
-              <motion.a
-                href="https://drive.google.com/file/d/1DsUkFU_8zacu9eF7-1-HmSvJNaRCIoLI/view"
-                target="_blank"
-                rel="noopener noreferrer"
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                className="relative block"
-              >
-                <motion.img
-                  src={CV}
-                  alt="CV"
-                  className="w-full h-[530px] object-cover cursor-pointer"
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  transition={{ duration: 0.5, delay: 0.4 }}
-                />
-                <motion.div
-                  className=" absolute inset-0 flex items-center justify-center bg-black bg-opacity-70 text-white text-lg font-bold opacity-0 hover:opacity-100 transition-opacity duration-300"
-                >
-                  Click to View CV
-                </motion.div>
-              </motion.a>
-            </div>
-          </motion.div>
-          </div>
+            <a
+              href="https://drive.google.com/file/d/1DsUkFU_8zacu9eF7-1-HmSvJNaRCIoLI/view"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block"
+            >
+          <img
+              src={CV}
+              alt="CV Preview"
+              className="w-full h-[520px] object-cover transition-transform duration-300 hover:scale-105"
+          />
+        <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-60 text-white text-lg font-semibold opacity-0 hover:opacity-100 transition-opacity duration-300">
+          Click to View Full CV
+        </div>
+      </a>
+    </motion.div>
+  </div>
+</div>
+         
         </motion.div>
       </div>
     </div>
