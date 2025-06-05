@@ -4,16 +4,16 @@ import { FiExternalLink } from 'react-icons/fi';
 
 const certificates = [
   {
-    title: "Certificate in Cyber Security",
+    title: "GeSSoMI-2024 Cybersecurity Bootcamp Certificate",
     description: "I participated in a cyber security bootcamp and received this certificate.",
-    link: "https://example.com/certificate-cyber-security",
-    image: "https://example.com/certificate-image1.png" // Replace with real image
+    link: "https://drive.google.com/file/d/1jUJfNDyxuW9DAaJJu7pcrzWmPBmlQOO2/view?usp=sharing",
+    image: "cyber.png" // Replace with real image
   },
   {
-    title: "Certificate in Data Science",
+    title: "Nanasala Certificate Course in English",
     description: "Achieved proficiency in data science and analytics.",
-    link: "https://example.com/certificate-data-science",
-    image: "https://example.com/certificate-image2.png" // Replace with real image
+    link: "https://drive.google.com/file/d/1jzR0iLw2wz7GIclFBgGLDOfVTM2UTlGx/view?usp=sharing",
+    image: "english.png" // Replace with real image
   },
   // Add more certificates as needed
 ];
