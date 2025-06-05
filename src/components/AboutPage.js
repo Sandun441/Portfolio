@@ -10,7 +10,7 @@ import {
 } from 'react-icons/si';
 import { motion } from 'framer-motion';
 
-const CV = 'https://Sandun441.github.io/Portfolio/cv.png';
+const CV = '/cv.png';
 
 const AboutPage = () => {
   const languages = [
