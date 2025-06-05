@@ -123,7 +123,7 @@ const AboutPage = () => {
           </p>
           {/* CV Section */}
          
-            <div className="mt-12">
+          <div className="mt-12">
           <h2 className="text-3xl font-bold text-blue-500 mb-6 text-center">My CV</h2>
           <div className="flex flex-col md:flex-row items-center justify-center gap-8">
           <motion.div
