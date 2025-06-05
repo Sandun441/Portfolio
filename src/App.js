@@ -76,7 +76,9 @@ function HomePage() {
   animate={{ y: 0, opacity: 1 }}
   transition={{ delay: 0.3 }}
 >
+  <div className="cols-4">
   I am Sandun Liyanage
+  </div>
 </motion.h1>
 <motion.p 
   className="text-2xl text-gray-300 mb-8 text-right"
@@ -84,7 +86,7 @@ function HomePage() {
   animate={{ y: 0, opacity: 1 }}
   transition={{ delay: 0.4 }}
 >
-   Software Engineer | Web Developer | Mobile Developer
+   Software Engineer | Full-Stack Developer
   </motion.p>
 </motion.div>
 </div>
