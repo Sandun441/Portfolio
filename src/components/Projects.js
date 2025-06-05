@@ -1,14 +1,17 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { FaGithub } from 'react-icons/fa';
+import { FiExternalLink } from 'react-icons/fi';
 
 const Projects = () => {
   const projects = [
-  
     {
       title: "Social Media Application",
-      description: " My first full-stack web application, built using the MERN stack.",
-      link: "https://open-social-m.vercel.app/",
-    }
+      description: "My first full-stack web application, built using the MERN stack.",
+      plink: "https://open-social-m.vercel.app/",
+      glink: "https://github.com/Sandun441/OpenSocialM",
+    },
+    // Add more projects here if needed
   ];
 
   return (
@@ -29,14 +32,30 @@ const Projects = () => {
             key={index}
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: index * 0.1 }}
-            className="bg-gray-800 p-6 rounded-lg"
+            whileHover={{ scale: 1.03 }}
+            transition={{ duration: 0.4, delay: index * 0.1 }}
+            className="relative w-full md:w-[400px] lg:w-[450px] bg-gray-800 p-6 rounded-xl overflow-hidden shadow-md hover:shadow-blue-500/50 transition-shadow duration-300"
           >
             <h2 className="text-2xl font-bold text-blue-500">{project.title}</h2>
             <p className="mt-2 text-gray-300">{project.description}</p>
-            <a href={project.link} target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline mt-4 inline-block">
-              View Project
-            </a>
+            <div className="flex gap-10 mt-4">
+              <a
+                href={project.plink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-400 hover:underline flex items-center gap-2"
+              >
+                <FiExternalLink /> View Project
+              </a>
+              <a
+                href={project.glink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-400 hover:underline flex items-center gap-2"
+              >
+                <FaGithub /> View in GitHub
+              </a>
+            </div>
           </motion.div>
         ))}
       </div>

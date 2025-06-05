@@ -1,18 +1,19 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { FiExternalLink } from 'react-icons/fi';
 
 const certificates = [
   {
     title: "Certificate in Cyber Security",
-    description: "I participated a cyber security bootcamp and I got this certificate",
-    link: "https://example.com/certificate-web-development",
-    image: "https://example.com/certificate-image1.png" // Replace with your actual image link
+    description: "I participated in a cyber security bootcamp and received this certificate.",
+    link: "https://example.com/certificate-cyber-security",
+    image: "https://example.com/certificate-image1.png" // Replace with real image
   },
   {
     title: "Certificate in Data Science",
     description: "Achieved proficiency in data science and analytics.",
     link: "https://example.com/certificate-data-science",
-    image: "https://example.com/certificate-image2.png" // Replace with your actual image link
+    image: "https://example.com/certificate-image2.png" // Replace with real image
   },
   // Add more certificates as needed
 ];
@@ -36,14 +37,24 @@ const CertificatesPage = () => {
             key={index}
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
+            whileHover={{ scale: 1.03 }}
             transition={{ duration: 0.5, delay: index * 0.1 }}
-            className="bg-gray-800 p-6 rounded-lg"
+            className="relative w-full md:w-[400px] lg:w-[450px] bg-gray-800 p-6 rounded-xl overflow-hidden shadow-md hover:shadow-blue-500/50 transition-shadow duration-300"
           >
-            <img src={cert.image} alt={cert.title} className="w-full h-40 object-cover rounded-lg mb-4" />
+            <img
+              src={cert.image}
+              alt={cert.title}
+              className="w-full h-40 object-cover rounded-lg mb-4"
+            />
             <h2 className="text-2xl font-bold text-blue-500">{cert.title}</h2>
             <p className="mt-2 text-gray-300">{cert.description}</p>
-            <a href={cert.link} target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline mt-4 inline-block">
-              View Certificate
+            <a
+              href={cert.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-4 inline-flex items-center gap-2 text-blue-400 hover:underline"
+            >
+              <FiExternalLink /> View Certificate
             </a>
           </motion.div>
         ))}
