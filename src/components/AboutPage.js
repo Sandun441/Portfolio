@@ -133,7 +133,7 @@ const AboutPage = () => {
             className="relative w-full md:w-[400px] lg:w-[450px] rounded-xl overflow-hidden shadow-lg hover:shadow-blue-500/50 transition-shadow duration-300"
           >
             <a
-              href="https://drive.google.com/file/d/1DsUkFU_8zacu9eF7-1-HmSvJNaRCIoLI/view"
+              href="https://drive.google.com/file/d/180U9VbVWjv-DSfOoafuxTBBlY8FFkhyG/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="block"
