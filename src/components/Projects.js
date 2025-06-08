@@ -6,10 +6,16 @@ import { FiExternalLink } from 'react-icons/fi';
 const Projects = () => {
   const projects = [
     {
-      title: "Social Media Application",
+      title: " OpenSocialM - [ React.js, Node.js, Express, MongoDB ]",
       description: "My first full-stack web application, built using the MERN stack.",
       plink: "https://open-social-m.vercel.app/",
       glink: "https://github.com/Sandun441/OpenSocialM",
+    },
+    {
+      title: " Open Sesame (Group Project)- [ HTML, CSS, JavaScript ]",
+      description: "A student support website for the Open University of Sri Lanka, developed as a group project to provide academic resources and communication tools.",
+      plink: "",
+      glink: "https://github.com/vinuwa98/Open_Sesame",
     },
     // Add more projects here if needed
   ];
