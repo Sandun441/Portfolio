@@ -15,6 +15,30 @@ const certificates = [
     link: "https://drive.google.com/file/d/1jzR0iLw2wz7GIclFBgGLDOfVTM2UTlGx/view?usp=sharing",
     image: "english.png" 
   },
+    {
+    title: "Introduction to Java",
+    description: "Completed Introduction to JAVA course in Sololearn",
+    link: "https://www.sololearn.com/certificates/CC-EQCLHE7E",
+    image: "java.png" 
+  },
+    {
+    title: "Introduction to Python",
+    description: "Completed Introduction to Python course in Sololearn",
+    link: "https://www.sololearn.com/certificates/CC-X8PNC0NV",
+    image: "python.png" 
+  },
+    {
+    title: "Introduction to SQL",
+    description: "Completed Introduction to SQL course in Sololearn",
+    link: "https://www.sololearn.com/certificates/CC-OPWPYDQV",
+    image: "sql.png" 
+  },
+    {
+    title: "Introduction to JavaScript",
+    description: "Completed Introduction to JavaScript course in Sololearn",
+    link: "https://www.sololearn.com/certificates/CC-RZQT18KX",
+    image: "js.png" 
+  },
   // Add more certificates as needed
 ];
 
