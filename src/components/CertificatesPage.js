@@ -41,9 +41,15 @@ const certificates = [
   },
    {
     title: "API Test Automation with Postman",
-    description: "Completed I Test Automation with Postman Test Automation University",
+    description: "Completed I Test Automation with Postman Test in Automation University",
     link: "https://testautomationu.applitools.com/certificate/?id=0d4516fc",
     image: "api.png" 
+  },
+    {
+    title: "Codeless Test Automation with Selenium IDE",
+    description: "Codeless Test Automation with Selenium IDE in Test Automation University",
+    link: "https://testautomationu.applitools.com/certificate/?id=52f3ed20",
+    image: "test.png" 
   },
   // Add more certificates as needed
 ];
