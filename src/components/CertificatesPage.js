@@ -39,6 +39,12 @@ const certificates = [
     link: "https://www.sololearn.com/certificates/CC-RZQT18KX",
     image: "js.png" 
   },
+   {
+    title: "API Test Automation with Postman",
+    description: "Completed I Test Automation with Postman Test Automation University",
+    link: "https://testautomationu.applitools.com/certificate/?id=0d4516fc",
+    image: "js.png" 
+  },
   // Add more certificates as needed
 ];
 
