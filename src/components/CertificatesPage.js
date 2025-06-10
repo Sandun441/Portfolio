@@ -43,7 +43,7 @@ const certificates = [
     title: "API Test Automation with Postman",
     description: "Completed I Test Automation with Postman Test Automation University",
     link: "https://testautomationu.applitools.com/certificate/?id=0d4516fc",
-    image: "js.png" 
+    image: "api.png" 
   },
   // Add more certificates as needed
 ];
