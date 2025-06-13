@@ -47,9 +47,15 @@ const certificates = [
   },
     {
     title: "Codeless Test Automation with Selenium IDE",
-    description: "Codeless Test Automation with Selenium IDE in Test Automation University",
+    description: "Completed Codeless Test Automation with Selenium IDE in Test Automation University",
     link: "https://testautomationu.applitools.com/certificate/?id=52f3ed20",
     image: "test.png" 
+  },
+    {
+    title: "Web Element Locator Strategies",
+    description: "Completed Codeless Test Automation with Selenium IDE in Test Automation University",
+    link: "https://testautomationu.applitools.com/certificate/?id=30673ca9",
+    image: "web.png" 
   },
   // Add more certificates as needed
 ];
